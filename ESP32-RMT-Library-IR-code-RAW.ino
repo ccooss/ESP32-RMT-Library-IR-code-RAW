@@ -33,8 +33,6 @@ ESP32_IRrecv irrecv;
 
 #define SendIRxTimes 5
 
-
-
 unsigned int IRdata[1000]; //holding IR code in ms
 
 void setup() {
